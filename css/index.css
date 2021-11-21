@@ -30,6 +30,7 @@ nav ul {
 }
 nav ul a,
 h2 {
+  color: black;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -40,4 +41,8 @@ header {
 }
 section {
   padding-top: calc(var(--margin) * 3);
+}
+
+header img {
+  width: 25vw;
 }
