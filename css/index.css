@@ -40,4 +40,5 @@ header {
 }
 section {
   padding-top: calc(var(--margin) * 3);
+  height: 100vh;
 }
