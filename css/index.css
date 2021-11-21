@@ -3,7 +3,7 @@
 }
 
 :root {
-  --margin: 1rem;
+  --my-margin: 3rem;
 }
 body {
   margin: 0;
@@ -19,9 +19,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 0 6px gray;
-  margin-bottom: var(--margin);
   background-color: white;
-  padding: 1rem;
 }
 .content img {
   width: 50vw;
@@ -41,16 +39,15 @@ h2 {
   text-transform: capitalize;
 }
 
-main,
 header {
-  margin: var(--margin);
-}
-section {
-  /* padding-top: calc(var(--margin) * 3); */
+  margin: var(--my-margin);
 }
 
 header img {
   width: 25vw;
+}
+aside.menu h3 {
+  text-align: center;
 }
 
 aside.menu {
@@ -65,8 +62,18 @@ aside.menu {
 aside.menu li {
   list-style: none;
 }
+/* text-align: center; */
 .content {
+  margin: var(--my-margin);
   /* border: 1px red solid; */
   float: left;
   width: 80%;
+}
+
+section {
+  padding-top: 2rem;
+}
+
+.active {
+  text-decoration: underline;
 }
