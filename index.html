@@ -2,386 +2,528 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manual Su Mueble</title>
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/login.css" />
-    <link rel="stylesheet" href="css/VentasAlContado.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manual Su Mueble</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/login.css" />
+  <link rel="stylesheet" href="css/VentasAlContado.css" />
 
 </head>
 
 <body>
 
-    <nav>
-      <div class="brand">
-        <img width="50" src="./img/logo.png" alt="logo sumueble">
-        <span>Su Mueble</span>
-      </div>
-       
-    </nav>
-    <header>
-        <img src="./img/logo.png" alt="logo su mueble" />
-        <!-- https://nuestrodominio.com/#ventas -->
-        <h1>Manual Software Su Mueble</h1>
-    </header>
-    <main>
-      <aside class="menu">
-        <ul >
-          <li>
-              <a href="#login">Login</a>
-          </li>
-          <li>
-              <a href="#ventascontado">Ventas al Contado</a>
+  <nav>
+    <div class="brand">
+      <img width="50" src="./img/logo.png" alt="logo sumueble">
+      <span>Su Mueble</span>
+    </div>
 
-          </li>
-          <li>
-              <a href="#ventas">Ventas</a>
-          </li>
-          <li>
-              <a href="#ventascredito">Ventas al Credito</a>
-          </li>
-          <li>
-              <a href="#inventario">inventario</a>
-          </li>
+  </nav>
+  <header>
+    <img src="./img/logo.png" alt="logo su mueble" />
+    <!-- https://nuestrodominio.com/#ventas -->
+    <h1>Manual Software Su Mueble</h1>
+  </header>
+  <main>
+    <aside class="menu">
+      <ul>
+        <li>
+          <a href="#login">Login</a>
+        </li>
+        <li>
+          <a href="#ventascontado">Ventas al Contado</a>
 
-          <li>
-              <a href="#creditos">creditos</a>
-          </li>
+        </li>
+        <li>
+          <a href="#ventas">Ventas</a>
+        </li>
+        <li>
+          <a href="#ventascredito">Ventas al Credito</a>
+        </li>
+        <li>
+          <a href="#inventario">inventario</a>
+        </li>
 
-          <li>
-              <a href="#pagos">pagos</a>
-          </li>
+        <li>
+          <a href="#creditos">creditos</a>
+        </li>
 
-          <li>
-              <a href="#colaboradores">colaboradores</a>
-          </li>
+        <li>
+          <a href="#pagos">pagos</a>
+        </li>
 
-          <li>
-              <a href="#historialventas">historialventas</a>
-          </li>
+        <li>
+          <a href="#colaboradores">colaboradores</a>
+        </li>
 
-          <li>
-              <a href="#clientes">clientes</a>
-          </li>
+        <li>
+          <a href="#historialventas">historialventas</a>
+        </li>
 
-          <li>
-              <a href="#glosario">Glosario de Términos</a>
-          </li>
+        <li>
+          <a href="#clientes">clientes</a>
+        </li>
+
+        <li>
+          <a href="#glosario">Glosario de Términos</a>
+        </li>
       </ul>
-      </aside>
-      <div class="content">
+    </aside>
+    <div class="content">
 
-        <section id="login">
-          <h2>login</h2>
-          <img src="./img/Login.png" alt="login1" />
+      <section id="login">
+        <h2>login</h2>
+        <img src="./img/Login.png" alt="login1" />
+        <p>
+          Para acceder a la aplicación, el usuario debe hacer uso de sus credenciales de acceso (DNI y contraseña).
+        </p>
+        <br>
+        <p>
+          • IMPORTANTE:
+        <ul>
+          <li> En caso el usuario no tenga credenciales de acceso y la entidad ya existiese dada de alta en nuestra base
+            de datos, debe de ponerse en contacto con el usuario administrador de dicha entidad para solicitarle las
+            credenciales.</li>
+          <li>Solo el personal autorizado tendrá acceso al sistema.</li>
+          <li>ENTRAR: Una vez introducido el usuario y la contraseña, pulsando este botón para Entrar podrá entrar a los
+            módulos del sistema.</li>
+        </ul>
+        </p>
+        <section id="Niveles">
+          <h2>Niveles de acceso</h2>
           <p>
-            Para acceder a la aplicación, el usuario debe hacer uso de sus credenciales de acceso (DNI y contraseña). 
-          </p>
-          <br>
-          <p>
-            • IMPORTANTE: 
-            <ul>
-              <li> En caso el usuario no tenga credenciales de acceso y la entidad ya existiese dada de alta en nuestra base de datos, debe de ponerse en contacto con el usuario administrador de dicha entidad para solicitarle las credenciales.</li>
-              <li>Solo el personal autorizado tendrá acceso al sistema.</li>
-              <li>ENTRAR: Una vez introducido el usuario y la contraseña, pulsando este botón para Entrar podrá entrar a los módulos del sistema.</li>
-          </ul>
-          </p>
-          <section id="Niveles">
-            <h2>Niveles de acceso</h2>
-            <p>
-              -Administrador de ventas
-              El objetivo primordial de la administración de ventas es realizar una adecuada gestión de los procesos con
-              clientes, pero no puede acceder a inventario y colaboradores. En general, el administrador de ventas se
-              relaciona solo con todo lo que tenga que ver con operaciones de venta.
-              
-            </p>
-            <p>
-              -Administrador de Bodega:
-              El Administrador de Bodega está capacitado para desempeñarse en las áreas operativas de abastecimiento,
-              almacenaje, control de inventarios, producción y distribución.
-            </p>
-            <p>
-              -Secretaria:
-              El trabajo de una secretaria se centra en las tareas administrativas que se desarrollan. Su labor, en primer
-              lugar, se basa en la atención al cliente, ya que es una persona que debe tener contacto a diario con
-              representantes de otras empresas, clientes, repartidores y demás personas que posean algún vínculo o interés con
-              la empresa.
-              Dentro del sistema solo tiene acceso a la parte de Colaboradores, historial de ventas y crédito. Debido a ello,
-              su accionar es primordial, ya que también tiene bajo su cargo aspectos como la organización, recepción de
-              documentos y gestión de reuniones o entrevistas que contribuyen al buen funcionamiento de la empresa.
-      
-            </p>
-            <p>
-              -Gerente:
-              Sus funciones son planificar, organizar, dirigir, controlar, coordinar, analizar, calcular y conducir el trabajo
-              de la empresa, además de contratar al personal adecuado, efectuando esto durante la jornada de trabajo. El
-              gerente es el único que tiene el acceso completo al sistema debido a la gran responsabilidad que esto conlleva.
-            </p>
-            <p>
-              Funcionamiento del producto
-      
-              En esta parte se muestran las partes principales de los procesos implementadas y que se describirán a
-              continuación:
-      
-            </p>
-            <p>
-              -Ventas:
-              Un proceso de ventas es un nada más que un modelo de reglas, acciones y actividades, utilizadas por todos los
-              involucrados del área comercial y que contenga las siguientes características:
-      
-            </p>
-            <p>
-              Educativo: capaz de ser enseñado a los involucrados, pudiendo ser utilizado por cualquiera del área;
-      
-            </p>
-            <p>
-              Medible: tiene condiciones de crecer de forma uniforme, soportando el aumento de demanda;
-      
-            </p>
-            <p>
-              Previsible: posee indicadores claros para el análisis de resultados;
-      
-            </p>
-            <p>
-              Previsible: incluye expectativas claras de resultados para ser cumplidos en el período.
-            </p>
-            <p>
-              -Ventas al crédito:
-      
-              Se le llama venta a crédito a la que tiene el propósito de distribuir el pago del bien o servicio adquirido en
-              un determinado plazo pautado de antemano entre el comprador y el vendedor, de manera que el primero pueda
-              amortizar, por ejemplo, en varios meses.
-      
-            </p>
-            
-            <p>
-              Agregar Usuarios:
-      
-              En esta parte está permitido agregar diferentes usuarios al sistema, teniendo en cuenta sus limitaciones de
-              acuerdo al puesto que le corresponda.
-      
-            </p>
-            <p>
-              -Agregar Producto:
-      
-              Al agregar producto lo que estamos haciendo es incrementando nuestro inventario y podemos agregar los productos
-              que sean siempre y cuando se llenen todos los requisitos.
-      
-            </p>
-            <p>
-              -Pagar Cuotas:
-      
-              Una cuota de ventas es una meta cuantitativa que se asigna a una unidad de marketing. Una unidad de marketing
-              puede ser un vendedor, un territorio, una sucursal, una región, un distribuidor o un distrito. Las cuotas de
-              ventas se usan para planear, controlar y evaluar las actividades de ventas.
-      
-            </p>
-      
-            <p>
-              Guia
-              (se detalla por pasos lógicos y dividiendo por secciones las diferentes funcionalidades del producto, sistema)
-      
-            </p>
-          </section>
+            -Administrador de ventas
+            El objetivo primordial de la administración de ventas es realizar una adecuada gestión de los procesos con
+            clientes, pero no puede acceder a inventario y colaboradores. En general, el administrador de ventas se
+            relaciona solo con todo lo que tenga que ver con operaciones de venta.
 
-        </section>
-
-        <section id="ventascontado">
-
-            <h2>Ventas al Contado</h2>
-            <img src="./img/ventasAlContado.png" />
-            <h3> Procedimiento para hacer las ventas al contado</h3>
-            <p>
-                Llenamos los campos con los datos del cliente, sin dejar ningún campo sin llenar porque al dejar uno se le exigirá que lo rellene datos exactos de cliente y de colaborador Luego… busca el producto ya sea por el código o le da click en el que requiera
-                y se ubicará en la parte inferior el precio se verá reflejado y la cantidad del producto requerido sin poner la cantidad le pedirá que lo haga.. Pasa a Resumen Venta una vez hecho lo anterior y puede agregar varios productos y sus cantidades
-                de esta forma con tal haya la cantidad en el inventario que se pide se podrá hacer la venta. Para quitar Ítem el botón Rojo inferior de la tabla de Resumen Venta así eliminamos un producto que no queramos o se haya puesto por error. Con
-                botón Inferior verde terminamos la venta y nos dice la cantidad monetaria que hay que pagar y de esta manera finalizamos la venta ya sea que el cliente requiera nuevamente un producto volvemos iniciar el proceso antes mencionado.
-
-            </p>
-        </section>
-
-        <section id="ventas">
-            <h2>ventas</h2>
-        </section>
-
-        
-        
-        <section id="ventascredito">
-               <h2>ventas credito</h2>
-             <img src="./img/image1.png" alt="ventascredito"/>
-             <p>
-             Procederemos a llenar todos los campos correspondientes con los datos requeridos en las especificaciones propuestas 
-             en dicha pantalla, tomando en cuenta todos los aspectos y limitaciones para llenar todos los campos de la manera correcta.
-         
-          Al momento de hacer la venta al crédito el sistema requiere  mínimo 2 referencias que son las que respaldan al cliente ante cualquier circunstancia y deberá llenar los siguientes datos siempre cumpliendo con los estándares requeridos por los desarrolladores.
-          
-         </p>
-         <br>
-         </ul>
-         <img src="img/image2.png" alt="ventascredito"/>
-         <p>
-         También se solicita información del producto a vender y para seleccionaremos la opción “ agregar productos” y nos mostrará la siguiente ventana para elegir el producto a vender.
-         Una vez hecho todo esto simplemente seleccionamos “Agregar a la venta” y nuestra venta al crédito estará efectuada.
-         </p>
-         <br>
-         </ul>
-         <img src="img/image3.png" alt="ventascredito"/>
-         <p>
-         Una vez agregado el producto el sistema automáticamente para terminar la venta al crédito nos mostrará la siguiente ventana para finalizar con nuestra venta.
-         </p>
-         <br>
-         </ul>
-         <img src="img/image4.png" alt="ventascredito"/>
-         
-        </section>
-
-        <section id="inventario">
-            <h2>inventario</h2>
-        </section>
-
-        <section id="creditos">
-            <h2>Creditos</h2>
-        </section>
-
-        <section id="pagos">
-            <h2>Pagos</h2>
-        </section>
-
-        <section id="colaboradores">
-          <h2>Agregar Colaboradores al sistema</h2>
-          <p>
-            <ul>
-                <li>Una vez ingresando al sistema principal nos dirigimos a la opción de “Colaboradores” y presionamos el botón “Nuevo” </li>
-            </ul>
-            <img src="./img/Agregar Colaboradores.png" alt="AgregarSistemaColaborador" />
           </p>
           <p>
-            <ul>
-                <li>Al seleccionar el botón “Nuevo” nos mostrará la siguiente ventana para ingresar todos los datos del nuevo colaborador. En donde tenemos que llenar los siguientes datos y una vez ingresados todos seleccionamos “Hecho” para guardar todos los cambios.</li>
-            </ul>
-            <img src="./img/AgregarColaboradores2.png" alt="AgregarSistemaColaborador2"/><br><BR>
+            -Administrador de Bodega:
+            El Administrador de Bodega está capacitado para desempeñarse en las áreas operativas de abastecimiento,
+            almacenaje, control de inventarios, producción y distribución.
           </p>
-          <h2>Actualizar un colaborador</h2>
           <p>
-            <ul>
-                <li>Nos situamos siempre en la ventana principal y elegimos  “Colaboradores” y seleccionamos el botón “Actualizar” </li>
-            </ul>
-            <img src="./img/ActualizarColaborador.png" alt="ActualizarUnColaborador" />
-            <ul>
-              <li>Una vez seleccionando “Actualizar” nos mostrará la siguiente ventana en donde debemos de llenar los campos especificados para dicha acción siguiendo siempre los lineamientos.” </li>
-            </ul>
-            <img src="./img/ActualizarColaborador2.png" alt="ActualizarUnColaborador2" />
+            -Secretaria:
+            El trabajo de una secretaria se centra en las tareas administrativas que se desarrollan. Su labor, en primer
+            lugar, se basa en la atención al cliente, ya que es una persona que debe tener contacto a diario con
+            representantes de otras empresas, clientes, repartidores y demás personas que posean algún vínculo o interés
+            con
+            la empresa.
+            Dentro del sistema solo tiene acceso a la parte de Colaboradores, historial de ventas y crédito. Debido a
+            ello,
+            su accionar es primordial, ya que también tiene bajo su cargo aspectos como la organización, recepción de
+            documentos y gestión de reuniones o entrevistas que contribuyen al buen funcionamiento de la empresa.
+
           </p>
-          <h2>Desactivar un Colaborador</h2>
           <p>
-            <ul>
-                <li>Estando situados siempre en la ventana principal de “Colaboradores” seleccionamos el colaborador que deseamos desactivar o eliminar de nuestro sistema:</li>
-            </ul>
-            <img src="./img/DesactivarColaborador.png" alt="DesactivarUnColaborador" />
-            <ul>
-              <li>Y a continuación solo presionamos el botón de “Terminar Contrato”:</li>
-            </ul>
-            <img src="./img/DesactivarColaborar2.png" alt="DesactivarUnColaborador2" />
+            -Gerente:
+            Sus funciones son planificar, organizar, dirigir, controlar, coordinar, analizar, calcular y conducir el
+            trabajo
+            de la empresa, además de contratar al personal adecuado, efectuando esto durante la jornada de trabajo. El
+            gerente es el único que tiene el acceso completo al sistema debido a la gran responsabilidad que esto
+            conlleva.
+          </p>
+          <p>
+            Funcionamiento del producto
+
+            En esta parte se muestran las partes principales de los procesos implementadas y que se describirán a
+            continuación:
+
+          </p>
+          <p>
+            -Ventas:
+            Un proceso de ventas es un nada más que un modelo de reglas, acciones y actividades, utilizadas por todos
+            los
+            involucrados del área comercial y que contenga las siguientes características:
+
+          </p>
+          <p>
+            Educativo: capaz de ser enseñado a los involucrados, pudiendo ser utilizado por cualquiera del área;
+
+          </p>
+          <p>
+            Medible: tiene condiciones de crecer de forma uniforme, soportando el aumento de demanda;
+
+          </p>
+          <p>
+            Previsible: posee indicadores claros para el análisis de resultados;
+
+          </p>
+          <p>
+            Previsible: incluye expectativas claras de resultados para ser cumplidos en el período.
+          </p>
+          <p>
+            -Ventas al crédito:
+
+            Se le llama venta a crédito a la que tiene el propósito de distribuir el pago del bien o servicio adquirido
+            en
+            un determinado plazo pautado de antemano entre el comprador y el vendedor, de manera que el primero pueda
+            amortizar, por ejemplo, en varios meses.
+
+          </p>
+
+          <p>
+            Agregar Usuarios:
+
+            En esta parte está permitido agregar diferentes usuarios al sistema, teniendo en cuenta sus limitaciones de
+            acuerdo al puesto que le corresponda.
+
+          </p>
+          <p>
+            -Agregar Producto:
+
+            Al agregar producto lo que estamos haciendo es incrementando nuestro inventario y podemos agregar los
+            productos
+            que sean siempre y cuando se llenen todos los requisitos.
+
+          </p>
+          <p>
+            -Pagar Cuotas:
+
+            Una cuota de ventas es una meta cuantitativa que se asigna a una unidad de marketing. Una unidad de
+            marketing
+            puede ser un vendedor, un territorio, una sucursal, una región, un distribuidor o un distrito. Las cuotas de
+            ventas se usan para planear, controlar y evaluar las actividades de ventas.
+
+          </p>
+
+          <p>
+            Guia
+            (se detalla por pasos lógicos y dividiendo por secciones las diferentes funcionalidades del producto,
+            sistema)
+
           </p>
         </section>
 
-        <section id="historialventas">
-            <h2>historial ventas</h2>
-            <h3>Revisar el historial de ventas</h3>
+      </section>
 
-          <ul>
-              <li>
-                Si el usuario quiere consultar información de ventas, primero debe iniciar sesión.
-                Si el usuario ingresa mal cualquiera de los dos campos no lo dejará ingresar..
-                Una vez ingresado los datos correctamente y le de click al botón de entrar aparecerá el menú principal.</li>
-                <p></p>
-                   <img src="img/imagen_inicio.png" width="500" alt="">
-              <li>
-                Una vez que el usuario ingrese al sistema iniciando sesión podrá ver el menú principal de 
-                todo el sistema y sus opciones, Deberá seleccionar la opción de Historial de Ventas para 
-                acceder al historial de ventas.  
-              </li>
-              <p></p>
-              <img src="img/img1.png" width="500" alt=""> 
-              <p></p>
-              <p>
-                Una vez seleccionado ver el formulario de Historial donde podrá buscar las ventas solo por el nombre del Cliente, podrá ingresar el nombre de cliente para ver sus comprar realizadas
-              </p>
-              <p></p>
-              <img src="img/imagen_2.png" width="500" alt="">
-          </ul>        
-             <ul>
-                <p>También está el botón ver detalle que desplegará lo que contiene dicha venta seleccionada en color azul.</p>
+      <section id="ventascontado">
 
-                <img src="img/imagen_3.png" width="500" alt="">
-                <p></p>
-                <img src="img/imagen_4.png" width="500" alt="">
-                <p></p>
-                <li>
-                  Ya cargado el formulario podrá visualizar el historial de ventas con sus detalles como: Código de Factura, Tipo de Venta, Tota, Nombre del cliente, Fecha de compra y cancelación, Prima, cuotas y Colaborador.
-                </li>
-                <p></p>
-                <img src="img/imagen_5.png" width="500" alt="">
+        <h2>Ventas al Contado</h2>
+        <img src="./img/ventasAlContado.png" />
+        <h3> Procedimiento para hacer las ventas al contado</h3>
+        <p>
+          Llenamos los campos con los datos del cliente, sin dejar ningún campo sin llenar porque al dejar uno se le
+          exigirá que lo rellene datos exactos de cliente y de colaborador Luego… busca el producto ya sea por el código
+          o le da click en el que requiera
+          y se ubicará en la parte inferior el precio se verá reflejado y la cantidad del producto requerido sin poner
+          la cantidad le pedirá que lo haga.. Pasa a Resumen Venta una vez hecho lo anterior y puede agregar varios
+          productos y sus cantidades
+          de esta forma con tal haya la cantidad en el inventario que se pide se podrá hacer la venta. Para quitar Ítem
+          el botón Rojo inferior de la tabla de Resumen Venta así eliminamos un producto que no queramos o se haya
+          puesto por error. Con
+          botón Inferior verde terminamos la venta y nos dice la cantidad monetaria que hay que pagar y de esta manera
+          finalizamos la venta ya sea que el cliente requiera nuevamente un producto volvemos iniciar el proceso antes
+          mencionado.
 
-                <p>Si el usuario quiere ver más información de una venta en específico puedo hacerlo, esto dándole click al botón Detalles.</p>
-                <p></p>
-                <li>
-                  Se abrirá una nueva ventana la cual tendrá más información específica del cliente seleccionado como ser: Código de Factura, Producto, Cantidad, Precio venta, Subtotal, Total.También podrá saber el Nombre del Cliente, su DNI (Identificación) y el Monto.
-                </li>
-                <p></p>
-                <img src="img/imagen_6.png" width="500" alt="">
-              </ul>
-              
-        </ul> 
-        </section>
+        </p>
+      </section>
 
-        <section id="clientes">
-            <h2>clientes</h2>
-        </section>
+      <section id="ventas">
+        <h2>ventas</h2>
+      </section>
 
-        <section id="glosario">
-            <h2>Glosario de Términos</h2>
-            <h3>Menú Principal</h3>
-            <p> Ventas: Sirve para poder ingresar al apartado de Ventas al contado y realizar la venta.</p>
-            <p>Ventas al Crédito: Sirve para poder ingresar al apartado de Ventas al Crédito y realizar la venta.</p>
-            <p>Inventario: Sirve para ingresar al apartado de actualizar el inventario del almacén o poder ingresar inventario nuevo.</p>
-            <p>Créditos: Sirve para hacer la búsqueda de una venta al crédito y poder pagar la cuota correspondiente.</p>
-            <p>Devoluciones: Sirve para ingresar productos que los clientes devuelven por motivos justificados, también le permite ver información general como de qué clase es la venta si al crédito o al contado, fecha para poder proceder a llenar los datos
-                de la devolución.</p>
-            <p>Historial de Ventas: Sirve para poder visualizar el historial de las ventas realizadas por la empresa.</p>
-            <p>Colaboradores: Sirve para poder visualizar la cantidad de colaboradores que hay en la empresa y hacer ciertos cambios. </p>
-            <p>Cerrar Sesión: Sirve para cuando el colaborador o usuario que esté utilizando el sistema decida cerrar el programa. </p>
 
-            <h3>Ventas</h3>
-            <p>Agregar a la Venta: Con esto el colaborador puede realizar una venta al contado, solo seleccionando el Ítem o Producto que se va a vender.</p>
-            <p>Quitar Ítem: Este botón le permite al colaborador quitar un producto o Ítem que el cliente decida no llevar o que exista algún error en los productos seleccionados.</p>
-            <p>Terminar Venta: Con este botón el colaborador puede terminar la venta que se está haciendo, generando la factura.</p>
 
-            <h3>Inventario</h3>
-            <p>Actualizar: Con este botón el usuario puede cambiar las propiedades de un producto ya existente en inventario, como ser: Código, precio, categoría, nombre y existencias.</p>
-            <p>Nuevo: El colaborador puede ingresar nuevos productos y guardarlos con sus respectivas propiedades (Código, precio, categoría, nombre y existencias).</p>
+      <section id="ventascredito">
+        <h2>ventas credito</h2>
+        <img src="./img/image1.png" alt="ventascredito" />
+        <p>
+          Procederemos a llenar todos los campos correspondientes con los datos requeridos en las especificaciones
+          propuestas
+          en dicha pantalla, tomando en cuenta todos los aspectos y limitaciones para llenar todos los campos de la
+          manera correcta.
 
-            <h3>Crédito</h3>
-            <p>Pagar Cuota: El colaborador puede ingresar los datos de la cuota que se va a pagar por un producto, estos datos son: Cantidad de la cuota, DNI del colaborador que realizó el cobro de la cuota, Producto, Fecha de Vencimiento, Cuotas Pendientes,
-                Monto Pendiente.</p>
-            <p>Imprimir Factura: El colaborador imprime la factura una vez realizado el pago de la cuota.</p>
+          Al momento de hacer la venta al crédito el sistema requiere mínimo 2 referencias que son las que respaldan al
+          cliente ante cualquier circunstancia y deberá llenar los siguientes datos siempre cumpliendo con los
+          estándares requeridos por los desarrolladores.
 
-            <h3>Devoluciones</h3>
-            <p>Agregar: Le permite al colaborador ingresar los datos de devolución, estos son: Código de Factura, Motivo de la Devolución, Producto, Cantidad y Observaciones del Estado del Producto.</p>
+        </p>
+        <br>
+        </ul>
+        <img src="img/image2.png" alt="ventascredito" />
+        <p>
+          También se solicita información del producto a vender y para seleccionaremos la opción “ agregar productos” y
+          nos mostrará la siguiente ventana para elegir el producto a vender.
+          Una vez hecho todo esto simplemente seleccionamos “Agregar a la venta” y nuestra venta al crédito estará
+          efectuada.
+        </p>
+        <br>
+        </ul>
+        <img src="img/image3.png" alt="ventascredito" />
+        <p>
+          Una vez agregado el producto el sistema automáticamente para terminar la venta al crédito nos mostrará la
+          siguiente ventana para finalizar con nuestra venta.
+        </p>
+        <br>
+        </ul>
+        <img src="img/image4.png" alt="ventascredito" />
 
-            <h3>Historial de Ventas</h3>
-            <p>Hecho: Se guardan los datos ingresados de la devolución.</p>
-            <p>Ver Detalles: Permite al colaborador ver más a detalle los datos de una venta realizada.</p>
+      </section>
 
-            <h3>Colaboradores:</h3>
-            <p>Actualizar: Permite ver o cambiar los datos de algún colaborador, como: DNI, Nombre, RTN, Fecha de Nacimiento, Clave, Puesto, Correo, Telefono, Fecha de Contrato, Fecha de finalización y Dirección.</p>
-            <p>Nuevo: Permite ingresar un nuevo colaborador a la empresa tomando sus datos personales.</p>
-            <p>Terminar Contrato: Se usa cuando a un colaborador se le quitó o terminó el contrato, por los cual ya no será parte de la empresa.</p>
-        </section>
-      </div>
-    </main>
+      <section id="inventario">
+        <h2>inventario</h2>
+      </section>
+
+      <section id="creditos">
+        <h2>Creditos</h2>
+      </section>
+
+      <section id="pagos">
+        <h2>Pagos</h2>
+      </section>
+
+      <section id="colaboradores">
+        <h2>Agregar Colaboradores al sistema</h2>
+        <p>
+        <ul>
+          <li>Una vez ingresando al sistema principal nos dirigimos a la opción de “Colaboradores” y presionamos el
+            botón “Nuevo” </li>
+        </ul>
+        <img src="./img/Agregar Colaboradores.png" alt="AgregarSistemaColaborador" />
+        </p>
+        <p>
+        <ul>
+          <li>Al seleccionar el botón “Nuevo” nos mostrará la siguiente ventana para ingresar todos los datos del nuevo
+            colaborador. En donde tenemos que llenar los siguientes datos y una vez ingresados todos seleccionamos
+            “Hecho” para guardar todos los cambios.</li>
+        </ul>
+        <img src="./img/AgregarColaboradores2.png" alt="AgregarSistemaColaborador2" /><br><BR>
+        </p>
+        <h2>Actualizar un colaborador</h2>
+        <p>
+        <ul>
+          <li>Nos situamos siempre en la ventana principal y elegimos “Colaboradores” y seleccionamos el botón
+            “Actualizar” </li>
+        </ul>
+        <img src="./img/ActualizarColaborador.png" alt="ActualizarUnColaborador" />
+        <ul>
+          <li>Una vez seleccionando “Actualizar” nos mostrará la siguiente ventana en donde debemos de llenar los campos
+            especificados para dicha acción siguiendo siempre los lineamientos.” </li>
+        </ul>
+        <img src="./img/ActualizarColaborador2.png" alt="ActualizarUnColaborador2" />
+        </p>
+        <h2>Desactivar un Colaborador</h2>
+        <p>
+        <ul>
+          <li>Estando situados siempre en la ventana principal de “Colaboradores” seleccionamos el colaborador que
+            deseamos desactivar o eliminar de nuestro sistema:</li>
+        </ul>
+        <img src="./img/DesactivarColaborador.png" alt="DesactivarUnColaborador" />
+        <ul>
+          <li>Y a continuación solo presionamos el botón de “Terminar Contrato”:</li>
+        </ul>
+        <img src="./img/DesactivarColaborar2.png" alt="DesactivarUnColaborador2" />
+        </p>
+      </section>
+
+      <section id="devoluciones">
+        <h2>devoluciones</h2>
+
+        <h3>Procedimiento para hacer una devolución de cualquier venta.</h3>
+        <p>
+        <ul>
+          <li>Lo que haremos a continuación es ingresar al menú principal y dirigirnos a la opción de “Devoluciones”.
+            (solo
+            personal autorizado)</li>
+        </ul>
+        </p>
+        <img src="./devolucionparte1.png" alt="devoluciones" />
+
+        <p>
+        <ul>
+          <li>Procederemos a buscar por el nombre del cliente para hacer la devolución de la venta y damos “Click” en
+            ella para
+            seleccionarla.</li>
+        </ul>
+        </p>
+        <img src="./devolucionparte2.png" alt="devoluciones" />
+
+        <p>
+        <ul>
+          <li>Luego damos “Click” en el botón “Agregar”.</li>
+        </ul>
+        </p>
+        <img src="./devolucionparte3.png" alt="devoluciones" />
+
+        <p>
+        <ul>
+          <li>Continuamos con llenar los datos que se le piden en el formulario sin dejar campos vacíos porque no se le
+            permite.
+            Y damos “Click” en hecho.</li>
+        </ul>
+        </p>
+        <img src="./devolucionparte4.png" alt="devoluciones" />
+
+        <p>
+        <ul>
+          <li>Y ya listo se realizó la devolución de la venta.</li>
+        </ul>
+        </p>
+      </section>
+
+      <section id="historialventas">
+        <h2>historial ventas</h2>
+        <h3>Revisar el historial de ventas</h3>
+
+        <ul>
+          <li>
+            Si el usuario quiere consultar información de ventas, primero debe iniciar sesión.
+            Si el usuario ingresa mal cualquiera de los dos campos no lo dejará ingresar..
+            Una vez ingresado los datos correctamente y le de click al botón de entrar aparecerá el menú principal.</li>
+          <p></p>
+          <img src="img/imagen_inicio.png" width="500" alt="">
+          <li>
+            Una vez que el usuario ingrese al sistema iniciando sesión podrá ver el menú principal de
+            todo el sistema y sus opciones, Deberá seleccionar la opción de Historial de Ventas para
+            acceder al historial de ventas.
+          </li>
+          <p></p>
+          <img src="img/img1.png" width="500" alt="">
+          <p></p>
+          <p>
+            Una vez seleccionado ver el formulario de Historial donde podrá buscar las ventas solo por el nombre del
+            Cliente, podrá ingresar el nombre de cliente para ver sus comprar realizadas
+          </p>
+          <p></p>
+          <img src="img/imagen_2.png" width="500" alt="">
+        </ul>
+        <ul>
+          <p>También está el botón ver detalle que desplegará lo que contiene dicha venta seleccionada en color azul.
+          </p>
+
+          <img src="img/imagen_3.png" width="500" alt="">
+          <p></p>
+          <img src="img/imagen_4.png" width="500" alt="">
+          <p></p>
+          <li>
+            Ya cargado el formulario podrá visualizar el historial de ventas con sus detalles como: Código de Factura,
+            Tipo de Venta, Tota, Nombre del cliente, Fecha de compra y cancelación, Prima, cuotas y Colaborador.
+          </li>
+          <p></p>
+          <img src="img/imagen_5.png" width="500" alt="">
+
+          <p>Si el usuario quiere ver más información de una venta en específico puedo hacerlo, esto dándole click al
+            botón Detalles.</p>
+          <p></p>
+          <li>
+            Se abrirá una nueva ventana la cual tendrá más información específica del cliente seleccionado como ser:
+            Código de Factura, Producto, Cantidad, Precio venta, Subtotal, Total.También podrá saber el Nombre del
+            Cliente, su DNI (Identificación) y el Monto.
+          </li>
+          <p></p>
+          <img src="img/imagen_6.png" width="500" alt="">
+        </ul>
+
+        </ul>
+      </section>
+
+      <section id="clientes">
+        <h2>clientes</h2>
+      </section>
+
+      <section id="preguntasFrecuentes">
+        <h2>preguntas frecuentes</h2>
+
+        <h3>¿Qué es el login?</h3>
+        <p>Es una combinación de números y letras que sirve para identificar a un usuario dentro del sistema. Un proceso
+          con
+          el que se denomina el comienzo de una sesión en un sistema informático, usualmente compuesto por el pedido de
+          un
+          nombre de usuario (username) y una clave (password), como medio fehaciente de autentificar la identidad del
+          usuario.
+        </p>
+
+        <h3>¿Qué pasa si olvido mi contraseña?</h3>
+        <p>Ponerse en contacto con el gerente general de la empresa para tener acceso a ella o cambiarla a su vez.</p>
+
+        <h3>¿Puedo acceder a todas las funcionalidades del sistema con cualquier rol?</h3>
+        <p>No, cada rol dentro de la empresa contiene distintas utilidades ya que el único capaz de visualizar todo es
+          el
+          gerente general.</p>
+
+        <h3>¿En ventas al crédito puedo asignar más de un producto a una venta?</h3>
+        <p>No, debido a que se hará la venta por productos independientes por seguridad y fiabilidad de los pagos
+          venideros.
+        </p>
+
+        <h3>¿En ventas al contado puedo asignar más de un producto a una venta?</h3>
+        <p>Si, Aquí no encontramos límites para asignar artículos a una venta.</p>
+
+        <h3>¿Se puede actualizar un producto sin haber seleccionado alguno?</h3>
+        <p>No, existe una validación que muestra un mensaje que no hay ningún producto seleccionado.</p>
+
+        <h3>¿Qué pasaría si se pierde la conexión a internet?</h3>
+        <p>Las computadoras que no son la principal no podrían hacer uso del sistema.</p>
+
+        <h3>¿Se puede acceder al sistema fuera de la empresa?</h3>
+        <p>No, la base de datos del programa está instalada en una computadora principal dentro de la empresa y la cual
+          no es
+          accesible desde fuera.</p>
+
+        <h3>¿Múltiples computadoras pueden usar el sistema?</h3>
+        <p>Si, siempre y cuando estén conectadas a la misma red wifi.</p>
+      </section>
+
+      <section id="glosario">
+        <h2>Glosario de Términos</h2>
+        <h3>Menú Principal</h3>
+        <p> Ventas: Sirve para poder ingresar al apartado de Ventas al contado y realizar la venta.</p>
+        <p>Ventas al Crédito: Sirve para poder ingresar al apartado de Ventas al Crédito y realizar la venta.</p>
+        <p>Inventario: Sirve para ingresar al apartado de actualizar el inventario del almacén o poder ingresar
+          inventario nuevo.</p>
+        <p>Créditos: Sirve para hacer la búsqueda de una venta al crédito y poder pagar la cuota correspondiente.</p>
+        <p>Devoluciones: Sirve para ingresar productos que los clientes devuelven por motivos justificados, también le
+          permite ver información general como de qué clase es la venta si al crédito o al contado, fecha para poder
+          proceder a llenar los datos
+          de la devolución.</p>
+        <p>Historial de Ventas: Sirve para poder visualizar el historial de las ventas realizadas por la empresa.</p>
+        <p>Colaboradores: Sirve para poder visualizar la cantidad de colaboradores que hay en la empresa y hacer ciertos
+          cambios. </p>
+        <p>Cerrar Sesión: Sirve para cuando el colaborador o usuario que esté utilizando el sistema decida cerrar el
+          programa. </p>
+
+        <h3>Ventas</h3>
+        <p>Agregar a la Venta: Con esto el colaborador puede realizar una venta al contado, solo seleccionando el Ítem o
+          Producto que se va a vender.</p>
+        <p>Quitar Ítem: Este botón le permite al colaborador quitar un producto o Ítem que el cliente decida no llevar o
+          que exista algún error en los productos seleccionados.</p>
+        <p>Terminar Venta: Con este botón el colaborador puede terminar la venta que se está haciendo, generando la
+          factura.</p>
+
+        <h3>Inventario</h3>
+        <p>Actualizar: Con este botón el usuario puede cambiar las propiedades de un producto ya existente en
+          inventario, como ser: Código, precio, categoría, nombre y existencias.</p>
+        <p>Nuevo: El colaborador puede ingresar nuevos productos y guardarlos con sus respectivas propiedades (Código,
+          precio, categoría, nombre y existencias).</p>
+
+        <h3>Crédito</h3>
+        <p>Pagar Cuota: El colaborador puede ingresar los datos de la cuota que se va a pagar por un producto, estos
+          datos son: Cantidad de la cuota, DNI del colaborador que realizó el cobro de la cuota, Producto, Fecha de
+          Vencimiento, Cuotas Pendientes,
+          Monto Pendiente.</p>
+        <p>Imprimir Factura: El colaborador imprime la factura una vez realizado el pago de la cuota.</p>
+
+        <h3>Devoluciones</h3>
+        <p>Agregar: Le permite al colaborador ingresar los datos de devolución, estos son: Código de Factura, Motivo de
+          la Devolución, Producto, Cantidad y Observaciones del Estado del Producto.</p>
+
+        <h3>Historial de Ventas</h3>
+        <p>Hecho: Se guardan los datos ingresados de la devolución.</p>
+        <p>Ver Detalles: Permite al colaborador ver más a detalle los datos de una venta realizada.</p>
+
+        <h3>Colaboradores:</h3>
+        <p>Actualizar: Permite ver o cambiar los datos de algún colaborador, como: DNI, Nombre, RTN, Fecha de
+          Nacimiento, Clave, Puesto, Correo, Telefono, Fecha de Contrato, Fecha de finalización y Dirección.</p>
+        <p>Nuevo: Permite ingresar un nuevo colaborador a la empresa tomando sus datos personales.</p>
+        <p>Terminar Contrato: Se usa cuando a un colaborador se le quitó o terminó el contrato, por los cual ya no será
+          parte de la empresa.</p>
+      </section>
+    </div>
+  </main>
 </body>
 
 </html>
