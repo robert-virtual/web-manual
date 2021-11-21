@@ -1,85 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manual Su Mueble</title>
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/login.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/VentasAlContado.css" />
+
+</head>
+
+<body>
+
     <nav>
-      <span>Su Mueble</span>
-      <ul>
-        <li>
-          <a href="#ventas">Ventas</a>
-        </li>
-        <li>
-          <a href="#ventascredito">Ventas al Credito</a>
-        </li>
-        <li>
-          <a href="#inventario">inventario</a>
-        </li>
+        <span>Su Mueble</span>
+        <ul>
+            <li>
+                <a href="#ventascontado">Ventas al Contado</a>
 
-        <li>
-          <a href="#creditos">creditos</a>
-        </li>
+            </li>
+            <li>
+                <a href="#ventas">Ventas</a>
+            </li>
+            <li>
+                <a href="#ventascredito">Ventas al Credito</a>
+            </li>
+            <li>
+                <a href="#inventario">inventario</a>
+            </li>
 
-        <li>
-          <a href="#pagos">pagos</a>
-        </li>
+            <li>
+                <a href="#creditos">creditos</a>
+            </li>
 
-        <li>
-          <a href="#colaboradores">colaboradores</a>
-        </li>
+            <li>
+                <a href="#pagos">pagos</a>
+            </li>
 
-        <li>
-          <a href="#historialventas">historialventas</a>
-        </li>
+            <li>
+                <a href="#colaboradores">colaboradores</a>
+            </li>
 
-        <li>
-          <a href="#clientes">clientes</a>
-        </li>
-      </ul>
+            <li>
+                <a href="#historialventas">historialventas</a>
+            </li>
+
+            <li>
+                <a href="#clientes">clientes</a>
+            </li>
+
+            <li>
+                <a href="#glosario">Glosario de Términos</a>
+            </li>
+        </ul>
     </nav>
     <header>
-      <img src="./img/logo.png" alt="logo su mueble" />
-      <!-- https://nuestrodominio.com/#ventas -->
-      <h1>Manual Su Mueble</h1>
+        <img src="./img/logo.png" alt="logo su mueble" />
+        <!-- https://nuestrodominio.com/#ventas -->
+        <h1>Manual Su Mueble</h1>
     </header>
     <main>
-      <section id="ventas">
-        <h2>ventas</h2>
-      </section>
+        <section id="ventascontado">
 
-      <section id="ventascredito">
-        <h2>ventas credito</h2>
-      </section>
+            <h2>Ventas al Contado</h2>
+            <img src="./img/ventasAlContado.png" />
+            <h3> Procedimiento para hacer las ventas al contado</h3>
+            <p>
+                Llenamos los campos con los datos del cliente, sin dejar ningún campo sin llenar porque al dejar uno se le exigirá que lo rellene datos exactos de cliente y de colaborador Luego… busca el producto ya sea por el código o le da click en el que requiera
+                y se ubicará en la parte inferior el precio se verá reflejado y la cantidad del producto requerido sin poner la cantidad le pedirá que lo haga.. Pasa a Resumen Venta una vez hecho lo anterior y puede agregar varios productos y sus cantidades
+                de esta forma con tal haya la cantidad en el inventario que se pide se podrá hacer la venta. Para quitar Ítem el botón Rojo inferior de la tabla de Resumen Venta así eliminamos un producto que no queramos o se haya puesto por error. Con
+                botón Inferior verde terminamos la venta y nos dice la cantidad monetaria que hay que pagar y de esta manera finalizamos la venta ya sea que el cliente requiera nuevamente un producto volvemos iniciar el proceso antes mencionado.
 
-      <section id="inventario">
-        <h2>inventario</h2>
-      </section>
+            </p>
+        </section>
 
-      <section id="creditos">
-        <h2>Creditos</h2>
-      </section>
+        <section id="ventas">
+            <h2>ventas</h2>
+        </section>
 
-      <section id="pagos">
-        <h2>Pagos</h2>
-      </section>
+        <section id="ventascredito">
+            <h2>ventas credito</h2>
+        </section>
 
-      <section id="colaboradores">
-        <h2>colaboradores</h2>
-      </section>
+        <section id="inventario">
+            <h2>inventario</h2>
+        </section>
 
-      <section id="historialventas">
-        <h2>historial ventas</h2>
-      </section>
+        <section id="creditos">
+            <h2>Creditos</h2>
+        </section>
 
-      <section id="clientes">
-        <h2>clientes</h2>
-      </section>
+        <section id="pagos">
+            <h2>Pagos</h2>
+        </section>
+
+        <section id="colaboradores">
+            <h2>colaboradores</h2>
+        </section>
+
+        <section id="historialventas">
+            <h2>historial ventas</h2>
+        </section>
+
+        <section id="clientes">
+            <h2>clientes</h2>
+        </section>
+
+        <section id="glosario">
+            <h2>Glosario de Términos</h2>
+            <h3>Menú Principal</h3>
+            <p> Ventas: Sirve para poder ingresar al apartado de Ventas al contado y realizar la venta.</p>
+            <p>Ventas al Crédito: Sirve para poder ingresar al apartado de Ventas al Crédito y realizar la venta.</p>
+            <p>Inventario: Sirve para ingresar al apartado de actualizar el inventario del almacén o poder ingresar inventario nuevo.</p>
+            <p>Créditos: Sirve para hacer la búsqueda de una venta al crédito y poder pagar la cuota correspondiente.</p>
+            <p>Devoluciones: Sirve para ingresar productos que los clientes devuelven por motivos justificados, también le permite ver información general como de qué clase es la venta si al crédito o al contado, fecha para poder proceder a llenar los datos
+                de la devolución.</p>
+            <p>Historial de Ventas: Sirve para poder visualizar el historial de las ventas realizadas por la empresa.</p>
+            <p>Colaboradores: Sirve para poder visualizar la cantidad de colaboradores que hay en la empresa y hacer ciertos cambios. </p>
+            <p>Cerrar Sesión: Sirve para cuando el colaborador o usuario que esté utilizando el sistema decida cerrar el programa. </p>
+
+            <h3>Ventas</h3>
+            <p>Agregar a la Venta: Con esto el colaborador puede realizar una venta al contado, solo seleccionando el Ítem o Producto que se va a vender.</p>
+            <p>Quitar Ítem: Este botón le permite al colaborador quitar un producto o Ítem que el cliente decida no llevar o que exista algún error en los productos seleccionados.</p>
+            <p>Terminar Venta: Con este botón el colaborador puede terminar la venta que se está haciendo, generando la factura.</p>
+
+            <h3>Inventario</h3>
+            <p>Actualizar: Con este botón el usuario puede cambiar las propiedades de un producto ya existente en inventario, como ser: Código, precio, categoría, nombre y existencias.</p>
+            <p>Nuevo: El colaborador puede ingresar nuevos productos y guardarlos con sus respectivas propiedades (Código, precio, categoría, nombre y existencias).</p>
+
+            <h3>Crédito</h3>
+            <p>Pagar Cuota: El colaborador puede ingresar los datos de la cuota que se va a pagar por un producto, estos datos son: Cantidad de la cuota, DNI del colaborador que realizó el cobro de la cuota, Producto, Fecha de Vencimiento, Cuotas Pendientes,
+                Monto Pendiente.</p>
+            <p>Imprimir Factura: El colaborador imprime la factura una vez realizado el pago de la cuota.</p>
+
+            <h3>Devoluciones</h3>
+            <p>Agregar: Le permite al colaborador ingresar los datos de devolución, estos son: Código de Factura, Motivo de la Devolución, Producto, Cantidad y Observaciones del Estado del Producto.</p>
+
+            <h3>Historial de Ventas</h3>
+            <p>Hecho: Se guardan los datos ingresados de la devolución.</p>
+            <p>Ver Detalles: Permite al colaborador ver más a detalle los datos de una venta realizada.</p>
+
+            <h3>Colaboradores:</h3>
+            <p>Actualizar: Permite ver o cambiar los datos de algún colaborador, como: DNI, Nombre, RTN, Fecha de Nacimiento, Clave, Puesto, Correo, Telefono, Fecha de Contrato, Fecha de finalización y Dirección.</p>
+            <p>Nuevo: Permite ingresar un nuevo colaborador a la empresa tomando sus datos personales.</p>
+            <p>Terminar Contrato: Se usa cuando a un colaborador se le quitó o terminó el contrato, por los cual ya no será parte de la empresa.</p>
+        </section>
     </main>
-  </body>
+</body>
+
 </html>
