@@ -21,7 +21,8 @@ nav {
   box-shadow: 0 0 6px gray;
   background-color: white;
 }
-.content img {
+.content img,
+.content video {
   width: 50vw;
 }
 .brand {
